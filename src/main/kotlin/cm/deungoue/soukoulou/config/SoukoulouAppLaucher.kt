@@ -38,6 +38,7 @@ class SoukoulouAppLaucher {
 
         // fetch an individual customer by ID
         val customer = repository.findOne(1L)
+
         if (customer != null ){
             log.info("Customer found with findOne(1L):")
             log.info("--------------------------------")
